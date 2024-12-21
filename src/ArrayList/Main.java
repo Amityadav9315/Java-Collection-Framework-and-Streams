@@ -10,7 +10,7 @@ class StringLengthComperator implements Comparator<String>{
 
     @Override
     public int compare(String s1, String s2) {
-        return s1.length() -s2.length();
+        return s2.length() -s1.length();
 
     }
 }
@@ -21,6 +21,24 @@ class MyComperator implements  Comparator<Integer>{
         return  o1-o2;
     }
 }
+
+class Student{
+      private String  name;
+      private  double gpa;
+
+      public Student(String name,double gpa){
+          this.name=name;
+          this.gpa=gpa;
+      }
+
+      public String  getName(){
+          return  name;
+
+      }
+      public double getgpa(){
+          return gpa;
+      }
+        }
 
 
 public class Main {
@@ -51,19 +69,22 @@ public class Main {
 //        list1.add("Wednesday");
 //        String[] array={"Apple","Banana","Mango"};
 //        List<String> list2=Arrays.asList(array);
-        List<String > words=Arrays.asList("banana","apple","data");
-        words.sort(new StringLengthComperator());
-        System.out.println(words);
 
 
 
-        List<Integer> list=new ArrayList<>();
-        list.add(2);
-        list.add(1);
-        list.add(3);
+//        List<String > words=Arrays.asList("banana","apple","data");
+//        words.sort((a,b) -> b.length() - a.length());
+//        System.out.println(words);
+//        List<Integer> list=new ArrayList<>();
+//        list.add(2);
+//        list.add(1);
+//        list.add(3);
+//
+//        list.sort((a,b) ->a-b);
+//        System.out.println(list);
 
-        list.sort(new MyComperator());
-        System.out.println(list);
+
+        List<Student>
 
 
     }
