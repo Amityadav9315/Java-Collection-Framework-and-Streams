@@ -9,5 +9,12 @@ public class StackDemo {
         stack.push(2);
         stack.pop();
         System.out.println(stack);
+        Integer peek = stack.peek();
+        System.out.println(stack );
+        stack.push(6);
+        stack.peek();
+        System.out.println(stack);
+
+
     }
 }
