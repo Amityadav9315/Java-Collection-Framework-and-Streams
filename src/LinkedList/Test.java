@@ -1,22 +1,27 @@
 package LinkedList;
 
+import java.util.LinkedList;
+
 public class Test {
 
     public static void main(String[] args) {
-        Node Node1=new Node();
-        Node Node2=new Node();
-        Node Node3=new Node();
-        node1.value=2;
-        node2.value=3;
-        node1.next=node2;
-        node2.next=null;
+        LinkedList<Integer> linkedList=new LinkedList<>();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.get(2);
+        linkedList.addLast(4);
+         linkedList.addFirst(0);
+         linkedList.getFirst();
+         linkedList.getLast();
+        System.out.println(linkedList);
+        linkedList.removeFirst();
+        System.out.println(linkedList);
+        linkedList.removeLast();
+        System.out.println(linkedList);
 
 
     }
 
 
-}
-class Node{
-    public int value;
-    public Node next;
 }
