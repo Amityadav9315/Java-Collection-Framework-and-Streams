@@ -1,8 +1,27 @@
 package ArrayList;
 
+import java.rmi.StubNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+
+class StringLengthComperator implements Comparator<String>{
+
+    @Override
+    public int compare(String s1, String s2) {
+        return 0;
+
+    }
+}
+class MyComperator implements  Comparator<Integer>{
+
+    @Override
+    public int compare(Integer o1,Integer o2){
+        return  0;
+    }
+}
+
 
 public class Main {
     public static void main(String[] args) {
@@ -22,13 +41,21 @@ public class Main {
        // list.remove(2);
         //System.out.println(list.size());
        // System.out.println(list.get(1));
-        List<String> list=new ArrayList<>();
-        System.out.println(list.getClass().getName());
-        List<String> list1= Arrays.asList("Monday","Tuesday");
-        System.out.println(list1.getClass().getName());
-        list1.add("Wednesday");
-        String[] array={"Apple","Banana","Mango"};
-        List<String> list2=Arrays.asList(array);
+
+
+
+//        List<String> list=new ArrayList<>();
+//        System.out.println(list.getClass().getName());
+//        List<String> list1= Arrays.asList("Monday","Tuesday");
+//        System.out.println(list1.getClass().getName());
+//        list1.add("Wednesday");
+//        String[] array={"Apple","Banana","Mango"};
+//        List<String> list2=Arrays.asList(array);
+
+
+
+        List<Student> students=new ArrayList<>();
+        students.add(new Student(name))
 
 
     }
