@@ -1,5 +1,6 @@
 package LinkedList;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Test {
@@ -19,6 +20,11 @@ public class Test {
         System.out.println(linkedList);
         linkedList.removeLast();
         System.out.println(linkedList);
+
+        LinkedList<String> animals=new LinkedList<>(Arrays.asList("Cat","Dog","Elephant"));
+        LinkedList<String> animalToRemove=new LinkedList<>(Arrays.asList("Dog","Lion"));
+        animals.removeAll(animalToRemove);
+        System.out.println(animals);
 
 
     }
