@@ -84,7 +84,15 @@ public class Main {
 //        System.out.println(list);
 
 
-        List<Student>
+        List<Student> students=new ArrayList<>();
+        students.add(new Student("Alice",3.5));
+        students.add(new Student("Bob",3.7));
+        students.add(new Student("Charlie",3.5));
+        students.add(new Student("Akshit",3.9));
+        students.sort((o1,o2) -> (int) (o2.getgpa()-o1.getgpa()));
+        for(Student s:students){
+            System.out.println(s.getName() +" :"+s.getgpa());
+        }
 
 
     }
