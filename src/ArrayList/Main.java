@@ -89,7 +89,18 @@ public class Main {
         students.add(new Student("Bob",3.7));
         students.add(new Student("Charlie",3.5));
         students.add(new Student("Akshit",3.9));
-        students.sort((o1,o2) -> (int) (o2.getgpa()-o1.getgpa()));
+        students.sort((o1,o2) -> {
+            if(o2.getgpa()-o1.getgpa()>0){
+                return 1;
+            }
+            else if(o2.getgpa()- o1.getgpa()<0){
+                return -1;
+
+            }
+            else{
+                return 0;
+            }
+        });
         for(Student s:students){
             System.out.println(s.getName() +" :"+s.getgpa());
         }
