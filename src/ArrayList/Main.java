@@ -10,7 +10,7 @@ class StringLengthComperator implements Comparator<String>{
 
     @Override
     public int compare(String s1, String s2) {
-        return 0;
+        return s1.length() -s2.length();
 
     }
 }
@@ -51,6 +51,9 @@ public class Main {
 //        list1.add("Wednesday");
 //        String[] array={"Apple","Banana","Mango"};
 //        List<String> list2=Arrays.asList(array);
+        List<String > words=Arrays.asList("banana","apple","data");
+        words.sort(new StringLengthComperator());
+        System.out.println(words);
 
 
 
