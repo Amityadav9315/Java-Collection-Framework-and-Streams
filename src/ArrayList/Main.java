@@ -18,7 +18,7 @@ class MyComperator implements  Comparator<Integer>{
 
     @Override
     public int compare(Integer o1,Integer o2){
-        return  0;
+        return  o1-o2;
     }
 }
 
@@ -54,8 +54,13 @@ public class Main {
 
 
 
-        List<Student> students=new ArrayList<>();
-        students.add(new Student(name))
+        List<Integer> list=new ArrayList<>();
+        list.add(2);
+        list.add(1);
+        list.add(3);
+
+        list.sort(new MyComperator());
+        System.out.println(list);
 
 
     }
