@@ -9,5 +9,8 @@ public class HashMapDemo {
         map.put(3,"Shubham");
 
         System.out.println(map);
+        String student=map.get(3);
+        System.out.println(student);
+
     }
 }
