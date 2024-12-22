@@ -76,6 +76,6 @@ class person{
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return Objects.hash(name,id);
     }
 }

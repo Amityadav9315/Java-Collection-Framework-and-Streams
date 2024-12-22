@@ -12,6 +12,7 @@ public class CopyOnWriteArrayListDemo {
         shoppinglist.add("egg");
         shoppinglist.add("Bread");
        // shoppinglist.add("Bread");
+        System.out.println();
         System.out.println("initial shopping list"+ shoppinglist);
         for(String item:shoppinglist){
             System.out.println(item);
