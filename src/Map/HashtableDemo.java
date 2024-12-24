@@ -26,6 +26,16 @@ public class HashtableDemo {
                 map.put(i,"Thread2");
             }
         });
+        thread1.start();
+        thread2.start();
+        try{
+            thread1.join();
+            thread2.join();
+        } catch(InterruptedException e){
+            e.printStackTrace();
+
+        }
+        System.out.println("Final sixe i=of HashMap"+ map.size());
 
 
 
