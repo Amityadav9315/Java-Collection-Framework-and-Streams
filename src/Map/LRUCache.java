@@ -21,7 +21,7 @@ public class LRUCache<K,V> extends LinkedHashMap<K,V> {
 
     }
        public static  void main(String[] args){
-            LRUCache<String ,Integer> studentMap=new LRUCache<>(3);
+            LRUCache<String ,Integer> studentMap= new LRUCache<>(3);
             studentMap.put("Bob",30);
             studentMap.put("Alice",89);
             studentMap.put("Ram",54);
