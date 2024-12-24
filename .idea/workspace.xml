@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd92454a-1fa3-47bb-b7a1-0d2c80be31c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CopyOnWriteArrayList/CopyOnWriteArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyOnWriteArrayList/CopyOnWriteArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/SortedMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/SortedMapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CopyOnWriteArrayListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VectorDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/amit9/Downloads/journalApp/Java Collection Framework and Streams/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CopyOnWriteArrayListDemo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SortedMapDemo.executor": "Run",
+    "Application.StackDemo.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.VectorDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/amit9/Downloads/journalApp/Java Collection Framework and Streams/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
