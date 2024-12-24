@@ -11,6 +11,7 @@ public class WeakHashMapDemo {
         WeakHashMap<String,Image> imageCache=new WeakHashMap<>();
         imageCache.put("img1",new Image("Image 1"));
         imageCache.put("img2",new Image("Image2"));
+        System.out.println();
 
 
     }
