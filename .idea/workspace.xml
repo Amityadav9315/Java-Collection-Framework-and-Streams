@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd92454a-1fa3-47bb-b7a1-0d2c80be31c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Map/ConcurrentSkipListMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/EnumMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/ConcurrentSkipListMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/ConcurrentSkipListMapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
   "keyToString": {
     "Application.ConcurrentSkipListMapDemo.executor": "Run",
     "Application.CopyOnWriteArrayListDemo.executor": "Run",
+    "Application.EnumMapDemo.executor": "Coverage",
     "Application.HashtableDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SortedMapDemo.executor": "Run",
@@ -46,7 +49,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/amit9/Downloads/journalApp/Java Collection Framework and Streams/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/amit9/Downloads/journalApp/Java Collection Framework and Streams/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

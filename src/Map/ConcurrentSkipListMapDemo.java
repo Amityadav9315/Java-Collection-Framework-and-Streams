@@ -9,6 +9,6 @@ public class ConcurrentSkipListMapDemo {
         map.put("Mango",2);
         map.put("Orange",3);
         map.put("Nariyal",4);
-        System.out.println(map) add ;
+        System.out.println(map);
     }
 }
