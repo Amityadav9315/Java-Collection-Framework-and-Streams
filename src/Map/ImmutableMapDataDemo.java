@@ -13,7 +13,8 @@ public class ImmutableMapDataDemo {
         map1.put("B",2);
         Map<String,Integer> map2= Collections.unmodifiableMap(map1);
         System.out.println(map2);
-       // map2.put("C",3);
-      //  map2.put("D",4);
+       Map<String,Integer> map3=Map.of("sunham",98,"Vivek",99);
+       map3.put("Akshita",88);
+       Map<String,Integer> map4=Map.ofEntries(Map.entry("Akshita",99),Map.entry("Vivek",99));
     }
 }

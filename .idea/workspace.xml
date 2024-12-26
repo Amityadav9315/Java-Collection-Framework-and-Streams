@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd92454a-1fa3-47bb-b7a1-0d2c80be31c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Map/ImmutableMapDataDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd92454a-1fa3-47bb-b7a1-0d2c80be31c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
