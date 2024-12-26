@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd92454a-1fa3-47bb-b7a1-0d2c80be31c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Map/EnumMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/EnumMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/ImmutableMapDataDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "Application.CopyOnWriteArrayListDemo.executor": "Run",
     "Application.EnumMapDemo.executor": "Run",
     "Application.HashtableDemo.executor": "Run",
+    "Application.ImmutableMapDataDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SortedMapDemo.executor": "Run",
     "Application.StackDemo.executor": "Run",
