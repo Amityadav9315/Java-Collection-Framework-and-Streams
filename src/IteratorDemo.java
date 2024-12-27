@@ -10,6 +10,7 @@ public class IteratorDemo {
         Iterator<Integer> iterator= list.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
+
         }
     }
 }
